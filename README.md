@@ -1,4 +1,6 @@
 # gridsome-plugin-ts
+[![npm](https://img.shields.io/npm/v/gridsome-plugin-ts.svg?style=flat-square)](https://www.npmjs.com/package/gridsome-plugin-ts)
+[![npm](https://img.shields.io/npm/dt/gridsome-plugin-ts.svg?style=flat-square)](https://www.npmjs.com/package/gridsome-plugin-ts)
 
 [TypeScript](https://www.typescriptlang.org/) plugin for [Gridsome](https://gridsome.org/).
 
