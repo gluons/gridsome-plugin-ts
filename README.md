@@ -1,4 +1,5 @@
 # gridsome-plugin-ts
+[![GitHub](https://img.shields.io/github/license/gluons/gridsome-plugin-ts.svg?style=flat-square)](./LICENSE)
 [![npm](https://img.shields.io/npm/v/gridsome-plugin-ts.svg?style=flat-square)](https://www.npmjs.com/package/gridsome-plugin-ts)
 [![npm](https://img.shields.io/npm/dt/gridsome-plugin-ts.svg?style=flat-square)](https://www.npmjs.com/package/gridsome-plugin-ts)
 
