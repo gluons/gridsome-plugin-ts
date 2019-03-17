@@ -20,9 +20,11 @@ yarn add -D typescript gridsome-plugin-ts
 ```js
 module.exports = {
 	plugins: [
-		use: 'gridsome-plugin-ts',
-		options: {
-			/* Options for `ts-loader` */
+		{
+			use: 'gridsome-plugin-ts',
+			options: {
+				/* Options for `ts-loader` */
+			}
 		}
 	]
 };
