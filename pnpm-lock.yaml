@@ -1,10 +1,10 @@
 dependencies:
   ts-loader: 7.0.2_typescript@3.6.2
 devDependencies:
-  '@gluons/prettier-config': 2.0.0_prettier@1.18.2
+  '@gluons/prettier-config': 2.0.0_prettier@2.0.5
   '@types/node': 8.10.53
   '@types/webpack': 4.39.1
-  prettier: 1.18.2
+  prettier: 2.0.5
   rimraf: 3.0.0
   tsconfig-gluons: 1.0.1_typescript@3.6.2
   tslint: 5.19.0_typescript@3.6.2
@@ -27,9 +27,9 @@ packages:
     dev: true
     resolution:
       integrity: sha512-7dV4eu9gBxoM0dAnj/BCFDW9LFU0zvTrkq0ugM7pnHEgguOEeOz1so2ZghEdzviYzQEED0r4EAgpsBChKy1TRQ==
-  /@gluons/prettier-config/2.0.0_prettier@1.18.2:
+  /@gluons/prettier-config/2.0.0_prettier@2.0.5:
     dependencies:
-      prettier: 1.18.2
+      prettier: 2.0.5
     dev: true
     peerDependencies:
       prettier: '1'
@@ -346,13 +346,13 @@ packages:
       node: '>=8.6'
     resolution:
       integrity: sha512-q0M/9eZHzmr0AulXyPwNfZjtwZ/RBZlbN3K3CErVrk50T2ASYI7Bye0EvekFY3IP1Nt2DHu0re+V2ZHIpMkuWg==
-  /prettier/1.18.2:
+  /prettier/2.0.5:
     dev: true
     engines:
-      node: '>=4'
+      node: '>=10.13.0'
     hasBin: true
     resolution:
-      integrity: sha512-OeHeMc0JhFE9idD4ZdtNibzY0+TPHSpSSb9h8FqtP+YnoZZ1sl8Vc9b1sasjfymH3SonAF4QcA2+mzHPhMvIiw==
+      integrity: sha512-7PtVymN48hGcO4fGjybyBSIWDsLU4H4XlvOHfq91pz9kkGlonzwTfYkaIEwiRg/dAJF9YlbsduBAgtYLi+8cFg==
   /process-nextick-args/2.0.1:
     dev: false
     resolution:
@@ -530,7 +530,7 @@ specifiers:
   '@gluons/prettier-config': ^2.0.0
   '@types/node': ^8.3
   '@types/webpack': ^4.4.25
-  prettier: ^1.16.4
+  prettier: ^2.0.0
   rimraf: ^3.0.0
   ts-loader: ^7.0.0
   tsconfig-gluons: ^1.0.1
