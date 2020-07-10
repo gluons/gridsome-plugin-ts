@@ -1,5 +1,5 @@
 dependencies:
-  ts-loader: 7.0.2_typescript@3.6.2
+  ts-loader: 8.0.0_typescript@3.6.2
 devDependencies:
   '@gluons/prettier-config': 2.0.0_prettier@2.0.5
   '@types/node': 8.10.53
@@ -437,7 +437,7 @@ packages:
       node: '>=8.0'
     resolution:
       integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==
-  /ts-loader/7.0.2_typescript@3.6.2:
+  /ts-loader/8.0.0_typescript@3.6.2:
     dependencies:
       chalk: 2.4.2
       enhanced-resolve: 4.1.1
@@ -451,7 +451,7 @@ packages:
     peerDependencies:
       typescript: '*'
     resolution:
-      integrity: sha512-DwpZFB67RoILQHx42dMjSgv2STpacsQu5X+GD/H9ocd8IhU0m8p3b/ZrIln2KmcucC6xep2PdEMEblpWT71euA==
+      integrity: sha512-giEW167rtK1V6eX/DnXEtOgcawwoIp6hqznqYNNSmraUZOq36zMhwBq12JMlYhxf50BC58bscsTSKKtE42zAuw==
   /tsconfig-gluons/1.0.1_typescript@3.6.2:
     dependencies:
       typescript: 3.6.2
@@ -532,7 +532,7 @@ specifiers:
   '@types/webpack': ^4.4.25
   prettier: ^2.0.0
   rimraf: ^3.0.0
-  ts-loader: ^7.0.0
+  ts-loader: ^8.0.0
   tsconfig-gluons: ^1.0.1
   tslint: ^5.14.0
   tslint-config-gluons: ^2.1.0
