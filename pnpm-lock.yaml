@@ -1,15 +1,15 @@
 dependencies:
-  ts-loader: 8.0.0_typescript@3.6.2
+  ts-loader: 8.0.0_typescript@4.0.2
 devDependencies:
   '@gluons/prettier-config': 2.0.0_prettier@2.0.5
   '@types/node': 8.10.53
   '@types/webpack': 4.39.1
   prettier: 2.0.5
   rimraf: 3.0.0
-  tsconfig-gluons: 1.0.1_typescript@3.6.2
-  tslint: 5.19.0_typescript@3.6.2
+  tsconfig-gluons: 1.0.1_typescript@4.0.2
+  tslint: 5.19.0_typescript@4.0.2
   tslint-config-gluons: 2.1.0_tslint@5.19.0
-  typescript: 3.6.2
+  typescript: 4.0.2
   webpack-chain: 6.0.0
 lockfileVersion: 5.1
 packages:
@@ -437,14 +437,14 @@ packages:
       node: '>=8.0'
     resolution:
       integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==
-  /ts-loader/8.0.0_typescript@3.6.2:
+  /ts-loader/8.0.0_typescript@4.0.2:
     dependencies:
       chalk: 2.4.2
       enhanced-resolve: 4.1.1
       loader-utils: 1.4.0
       micromatch: 4.0.2
       semver: 6.3.0
-      typescript: 3.6.2
+      typescript: 4.0.2
     dev: false
     engines:
       node: '>=10.0.0'
@@ -452,9 +452,9 @@ packages:
       typescript: '*'
     resolution:
       integrity: sha512-giEW167rtK1V6eX/DnXEtOgcawwoIp6hqznqYNNSmraUZOq36zMhwBq12JMlYhxf50BC58bscsTSKKtE42zAuw==
-  /tsconfig-gluons/1.0.1_typescript@3.6.2:
+  /tsconfig-gluons/1.0.1_typescript@4.0.2:
     dependencies:
-      typescript: 3.6.2
+      typescript: 4.0.2
     dev: true
     peerDependencies:
       typescript: '>=3.2'
@@ -466,13 +466,13 @@ packages:
       integrity: sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
   /tslint-config-gluons/2.1.0_tslint@5.19.0:
     dependencies:
-      tslint: 5.19.0_typescript@3.6.2
+      tslint: 5.19.0_typescript@4.0.2
     dev: true
     peerDependencies:
       tslint: ^5.3.2
     resolution:
       integrity: sha512-LgpXNgcrI/tiGaTw0ztVX4mX6Eut+9u+JMIouN3a4rf8td3BTOaaHwUSzMye2ayO0OZz5HstWE16zMNYTJVamw==
-  /tslint/5.19.0_typescript@3.6.2:
+  /tslint/5.19.0_typescript@4.0.2:
     dependencies:
       '@babel/code-frame': 7.5.5
       builtin-modules: 1.1.1
@@ -486,8 +486,8 @@ packages:
       resolve: 1.12.0
       semver: 5.7.1
       tslib: 1.10.0
-      tsutils: 2.29.0_typescript@3.6.2
-      typescript: 3.6.2
+      tsutils: 2.29.0_typescript@4.0.2
+      typescript: 4.0.2
     dev: true
     engines:
       node: '>=4.8.0'
@@ -496,21 +496,22 @@ packages:
       typescript: '>=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >=3.0.0-dev || >= 3.1.0-dev || >= 3.2.0-dev'
     resolution:
       integrity: sha512-1LwwtBxfRJZnUvoS9c0uj8XQtAnyhWr9KlNvDIdB+oXyT+VpsOAaEhEgKi1HrZ8rq0ki/AAnbGSv4KM6/AfVZw==
-  /tsutils/2.29.0_typescript@3.6.2:
+  /tsutils/2.29.0_typescript@4.0.2:
     dependencies:
       tslib: 1.10.0
-      typescript: 3.6.2
+      typescript: 4.0.2
     dev: true
     peerDependencies:
       typescript: '>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >= 3.0.0-dev || >= 3.1.0-dev'
     resolution:
       integrity: sha512-g5JVHCIJwzfISaXpXE1qvNalca5Jwob6FjI4AoPlqMusJ6ftFE7IkkFoMhVLRgK+4Kx3gkzb8UZK5t5yTTvEmA==
-  /typescript/3.6.2:
+  /typescript/4.0.2:
+    dev: true
     engines:
       node: '>=4.2.0'
     hasBin: true
     resolution:
-      integrity: sha512-lmQ4L+J6mnu3xweP8+rOrUwzmN+MRAj7TgtJtDaXE5PMyX2kCrklhg3rvOsOIfNeAWMQWO2F1GPc1kMD2vLAfw==
+      integrity: sha512-e4ERvRV2wb+rRZ/IQeb3jm2VxBsirQLpQhdxplZ2MEzGvDkkMmPglecnNDfSUBivMjP93vRbngYYDQqQ/78bcQ==
   /util-deprecate/1.0.2:
     dev: false
     resolution:
@@ -536,5 +537,5 @@ specifiers:
   tsconfig-gluons: ^1.0.1
   tslint: ^5.14.0
   tslint-config-gluons: ^2.1.0
-  typescript: ^3.3.3333
+  typescript: ^4.0.0
   webpack-chain: ^6.0.0
